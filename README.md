@@ -30,6 +30,12 @@ A CNN model which predict whether a cell is parasitized with malaria or not.
 3. EarlyStop
 4. Model Checkpointing (For saving model at best state we want)
 
+#### Tensorboard
+1. Logging Data
+2. View Model Graphs
+3. Hyperparameter Tuning
+4. Profiling and Visualizations
+
 #### Mitigating Overfitting and Underfitting
 
 ##### Underfitting
@@ -37,6 +43,7 @@ Underfitting occurs when a machine learning model fails to capture the underlyin
 1. Increase Model Complexity
 2. Increase Traingin Data
 3. Hyperparameter tunning
+4. Profiling and Visualizations
 
 ##### Overfitting
 Overfitting occurs when a machine learning model becomes too complex and starts to memorize the training data instead of generalizing well to unseen data. Here are some methods to mitigate overfitting:
@@ -51,4 +58,7 @@ Overfitting occurs when a machine learning model becomes too complex and starts 
 ### Data Augmentation
 1. With tf.images and keras
 2. Cutmix Augmentation
+3. Mixup Augmentation
+
+### MLOPs with wandb
 
