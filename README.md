@@ -16,5 +16,18 @@ A CNN model which predict whether a cell is parasitized with malaria or not.
 3. Model Subclassing (Using Model and Layer)
 4.   Custom Model and Layers
 
-### How to 
+### How to Measure Performance Of Classification Models
+1. Precision = TP/(TP+FP)
+2. Recall = TP/(TP+FN)
+3. Accuracy = (TP+TN)/(TP+TN+FP+FN)
+4. Confusion Matrix and How to visualize it using seaborn (heatmap)
+5. ROC (receiver operating characterisitc) plot, for finding best threshold value
+
+### Tensorflow Skills I learned :-
+#### Callbacks
+1. Tensorflow Callbacks (These are method which we can when model is training)
+2. LearningRateScheduler (For chaing learning rate)
+3. Model Checkpointing (For saving model at best state we want)
+
+#### Mitigating Overfitting and Underfitting
 
