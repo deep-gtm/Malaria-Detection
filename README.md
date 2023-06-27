@@ -1,6 +1,45 @@
 # Malaria-Detection
 A CNN model which predict whether a cell is parasitized with malaria or not.
 
+
+
+## Data Visualization
+
+![download](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/8f3bef33-5597-4644-bb70-6a22170d8344)
+
+## Model
+
+![download-1](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/847cba6a-fe5c-4a55-80eb-b30e01b59b5a)
+
+
+## Loss
+
+![download-2](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/31e77764-1630-4f0c-8074-45f39477e811)
+
+
+## Accuracy
+
+
+![download-3](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/b8ca4d6d-fc48-496b-886c-ca655c512d77)
+
+
+## Confusion Matrix
+
+![download-4](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/6d0d50f5-ac4a-4e96-ad8a-a503d4fd9b7b)
+
+
+## ROC Curve
+
+
+![download-5](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/465fc50c-7f0f-4c54-bbf0-7725a7b4f8ab)
+
+## Predictions
+Threshold = 0.5, Format = Actual : Predicted, P = Parasitised, U = Uninfected
+
+![download-6](https://github.com/deep-gtm/Malaria-Detection/assets/70434931/7ac99427-90f3-4cfb-8ecd-b0ec2999092e)
+
+
+
 ## Things I Learned In This Project :-
 
 ### Basic
@@ -61,4 +100,9 @@ Overfitting occurs when a machine learning model becomes too complex and starts 
 3. Mixup Augmentation
 
 ### MLOPs with wandb
+1. Experiment Tracking
+2.  Hyperparameter Tuning
+3.  Dataset Versioning
+4.  Model Versioning
+
 
